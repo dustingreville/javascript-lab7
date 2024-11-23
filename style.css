@@ -4,3 +4,7 @@
     --third-color : rgb(66, 66, 66);
 --font-size-large : 60px;
 }
+
+body {
+    background-color: var(--main-color);
+}
