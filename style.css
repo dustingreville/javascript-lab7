@@ -1,0 +1,10 @@
+:root {
+--main-color : black;
+    --secondary-color : rgb(92, 5, 206);
+    --third-color : rgb(66, 66, 66);
+--font-size-large : 60px;
+}
+
+body {
+    background-color: var(--main-color);
+}
