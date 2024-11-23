@@ -1,10 +1,44 @@
 :root {
 --main-color : black;
-    --secondary-color : rgb(92, 5, 206);
+    --secondary-color : rgb(135, 0, 245);
     --third-color : rgb(66, 66, 66);
 --font-size-large : 60px;
 }
 
 body {
     background-color: var(--main-color);
+    color: white;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    color: white;
+    background-color: var(--secondary-color);
+    border: 2px solid black;
+    cursor: pointer;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 10px;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+input {
+
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    background-color: var(--secondary-color);
+    color:white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: medium;
+}
+
+section {
+    background-color: var(--third-color);
 }
