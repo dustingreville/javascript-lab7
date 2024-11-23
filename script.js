@@ -25,8 +25,15 @@ form.addEventListener('submit', function(event) {
 var messageFocus = document.getElementById('focus');
 messageFocus.addEventListener('focus', function(){
     this.style.backgroundColor = 'blue';
-})
+});
 
 messageFocus.addEventListener('blur', function(){
     this.style.backgroundColor = 'red';
-})
+});
+
+var buttons = document.getElementById('delegationBTN');
+buttons.addEventListener('click', function(event){
+    if (event.target.tagName = 'button'){
+        alert('You clicked: ' + event.target.textContent);
+    }; 
+});
